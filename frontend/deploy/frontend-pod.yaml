@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: k8s-demo-frontend
-    image: "k8sjenkinsturtorail/backend"
+    image: "k8sjenkinsturtorail/frontend"
     ports: 
     - containerPort: 80
