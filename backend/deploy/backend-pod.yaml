@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend-pod
+  labels:
+    app: backend
+spec:
+  containers:
+  - name: k8s-demo-backend
+    image: "k8sjenkinsturtorail/backend"
+    ports: 
+    - containerPort: 8888
